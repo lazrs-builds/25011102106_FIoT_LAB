@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"final_proj\startup_stm32f103xb.o"
+"final_proj\main.o"
+"final_proj\stm32f1xx_it.o"
+"final_proj\stm32f1xx_hal_msp.o"
+"final_proj\esplib.o"
+"final_proj\bme280.o"
+"final_proj\stm32f1xx_hal_gpio_ex.o"
+"final_proj\stm32f1xx_hal_i2c.o"
+"final_proj\stm32f1xx_hal.o"
+"final_proj\stm32f1xx_hal_rcc.o"
+"final_proj\stm32f1xx_hal_rcc_ex.o"
+"final_proj\stm32f1xx_hal_gpio.o"
+"final_proj\stm32f1xx_hal_dma.o"
+"final_proj\stm32f1xx_hal_cortex.o"
+"final_proj\stm32f1xx_hal_pwr.o"
+"final_proj\stm32f1xx_hal_flash.o"
+"final_proj\stm32f1xx_hal_flash_ex.o"
+"final_proj\stm32f1xx_hal_exti.o"
+"final_proj\stm32f1xx_hal_uart.o"
+"final_proj\system_stm32f1xx.o"
+--strict --scatter "FINAL_PROJ\FINAL_PROJ.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FINAL_PROJ.map" -o FINAL_PROJ\FINAL_PROJ.axf

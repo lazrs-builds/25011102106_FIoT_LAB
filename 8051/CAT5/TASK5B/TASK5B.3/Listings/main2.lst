@@ -1,0 +1,106 @@
+C51 COMPILER V9.60.7.0   MAIN2                                                             11/14/2026 19:12:40 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN2
+OBJECT MODULE PLACED IN .\Objects\main2.obj
+COMPILER INVOKED BY: C:\Users\Triti\AppData\Local\Keil_v5_8051\C51\BIN\C51.EXE main2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OB
+                    -JECTEXTEND PRINT(.\Listings\main2.lst) TABS(2) OBJECT(.\Objects\main2.obj)
+
+line level    source
+
+   1          //Variable duty cycle
+   2          #include <reg51.h>
+   3          
+   4          sbit led = P1^0;
+   5          
+   6          unsigned char count = 0;
+   7          unsigned char duty = 0;
+   8          
+   9          unsigned char fcount = 0;
+  10          unsigned char dir = 1;
+  11          
+  12          void timer1(void) interrupt 3
+  13          {
+  14   1          TH1 = 0xFF;
+  15   1          TL1 = 0xF7;
+  16   1      
+  17   1          if(count < duty)
+  18   1          {
+  19   2              led = 1;
+  20   2          }
+  21   1          else
+  22   1          {
+  23   2              led = 0;
+  24   2          }
+  25   1      
+  26   1          count++;
+  27   1      
+  28   1          if(count >= 100)
+  29   1          {
+  30   2              count = 0;
+  31   2      
+  32   2              fcount++;
+  33   2      
+  34   2              if(fcount >= 10)
+  35   2              {
+  36   3                  fcount = 0;
+  37   3      
+  38   3                  if(dir == 1)
+  39   3                  {
+  40   4                      duty++;
+  41   4      
+  42   4                      if(duty >= 100)
+  43   4                      {
+  44   5                          duty = 100;
+  45   5                          dir = 0;
+  46   5                      }
+  47   4                  }
+  48   3                  else
+  49   3                  {
+  50   4                      if(duty > 0)
+  51   4                      {
+  52   5                          duty--;
+  53   5                      }
+  54   4      
+C51 COMPILER V9.60.7.0   MAIN2                                                             11/14/2026 19:12:40 PAGE 2   
+
+  55   4                      if(duty == 0)
+  56   4                      {
+  57   5                          dir = 1;
+  58   5                      }
+  59   4                  }
+  60   3              }
+  61   2          }
+  62   1      }
+  63          
+  64          void main(void)
+  65          {
+  66   1          led = 0;
+  67   1      
+  68   1          TMOD = 0x10;
+  69   1      
+  70   1          TH1 = 0xFF;
+  71   1          TL1 = 0xF7;
+  72   1      
+  73   1          ET1 = 1;
+  74   1          EA = 1;
+  75   1          TR1 = 1;
+  76   1      
+  77   1          while(1)
+  78   1          {
+  79   2          }
+  80   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    108    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"cat12_sensor_interfacing\startup_stm32f103xb.o"
+"cat12_sensor_interfacing\main.o"
+"cat12_sensor_interfacing\stm32f1xx_it.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_msp.o"
+"cat12_sensor_interfacing\bme280.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_gpio_ex.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_i2c.o"
+"cat12_sensor_interfacing\stm32f1xx_hal.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_rcc.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_rcc_ex.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_gpio.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_dma.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_cortex.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_pwr.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_flash.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_flash_ex.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_exti.o"
+"cat12_sensor_interfacing\stm32f1xx_hal_uart.o"
+"cat12_sensor_interfacing\system_stm32f1xx.o"
+--strict --scatter "CAT12_Sensor_interfacing\CAT12_Sensor_interfacing.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CAT12_Sensor_interfacing.map" -o CAT12_Sensor_interfacing\CAT12_Sensor_interfacing.axf
