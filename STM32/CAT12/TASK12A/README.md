@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | Continuous Lab Evaluation-12 (`CAT12`) |
-| **TASK NO** | **Task 12A – LED Blinking Using STM32 Nucleo** |
-| **DATE** | |
-| **NAME OF EXP** | GPIO-Based LED Interfacing Using STM32 Nucleo-F401RE |
+| **EXP** | Continuous Lab Evaluation-12 (`CAT12` / `TASK12A`) |
+| **TASK NO** | **Task 12A — Onboard LED Blink (GPIO Output)** |
+| **DATE** | 15/10/2026 |
+| **NAME OF EXP** | STM32F401RE Cortex-M4: GPIO and User Input Programming |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -15,6 +15,9 @@
 - **Peripheral:** On-board User LED (LD2).
 - **Pin Mapping:**
   - `PA5` – Connected to onboard LED (LD2).
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
