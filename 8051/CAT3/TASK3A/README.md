@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | Continuous Lab Evaluation-3 (CAT3 / TASK3A) |
+| **EXP** | Continuous Lab Evaluation-3 (`CAT3` / `TASK3A`) |
+| **TASK NO** | **Task 3A — Multi-Mode LED Pattern Generator & Switch Control** |
 | **DATE** | 31/07/2026 |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Task 3A — Multi-Mode LED Pattern Generator & Switch Control |
+| **NAME OF EXP** | Timer-Based LED Pattern Generator and Button Interrupt Controller |
 
 ## HARDWARE SETUP / PLATFORM
 
