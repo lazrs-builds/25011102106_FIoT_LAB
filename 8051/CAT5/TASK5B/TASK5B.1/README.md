@@ -17,6 +17,9 @@
 - **Pin Mapping:**
   - `P1.0` — LED output (PWM brightness control).
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
