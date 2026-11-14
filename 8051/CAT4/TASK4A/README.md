@@ -20,6 +20,9 @@
   - `P1.1–P1.4` — Four LED outputs.
   - `P0` — Seven-segment display interface.
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
