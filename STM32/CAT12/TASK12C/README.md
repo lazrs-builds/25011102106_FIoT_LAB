@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | Continuous Lab Evaluation-12 (`CAT12`) |
-| **TASK NO** | **Task 12C – Short-Press and Long-Press Detection** |
-| **DATE** | |
-| **NAME OF EXP** | GPIO-Based Short and Long Button Press Detection |
+| **EXP** | Continuous Lab Evaluation-12 (`CAT12` / `TASK12C`) |
+| **TASK NO** | **Task 12C — Short Press vs Long Press Pattern Control** |
+| **DATE** | 15/10/2026 |
+| **NAME OF EXP** | STM32F401RE Cortex-M4: GPIO and User Input Programming |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -16,6 +16,9 @@
 - **Pin Mapping:**
   - `PA5` – On-board LED (LD2).
   - `PC13` – User Push Button (B1).
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
