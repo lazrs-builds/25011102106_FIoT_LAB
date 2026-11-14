@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-2 TASK-2B
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-2 (CAT2 / TASK2B) |
+| **DATE** | Task 2B — Bare-Metal LED Blink & Custom Delay Library |
+| **NAME OF EXP** | 24/07/2026 |
+| **TASK NO** | Bare-Metal LED Blink |
 
 ## HARDWARE SETUP / PLATFORM
 
