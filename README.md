@@ -1,6 +1,6 @@
-# Fundamentals of Internet of Things (`25CS2741`) — Laboratory Repository
+# Fundamentals of Internet of Things (`25CS2741`) — Lab Repository
 
-This repository contains the embedded firmware source code, hardware schematics, pin mappings, and lab documentation for all Continuous Assessment Tasks (`CAT2`–`CAT15`) completed as part of the **Fundamentals of Internet of Things** laboratory course.
+This repository contains the embedded C source code, hardware schematics, and lab documentation for all Continuous Assessment Tasks completed as part of the **Fundamentals of Internet of Things** laboratory course.
 
 ---
 
@@ -8,7 +8,6 @@ This repository contains the embedded firmware source code, hardware schematics,
 
 ```text
 repo/
-├── .gitignore
 ├── README.md
 ├── 8051/
 │   ├── CAT2/       # Bare-Metal GPIO Output & LED Blink
