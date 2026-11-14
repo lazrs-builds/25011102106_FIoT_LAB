@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | |
-| **TASK NO** | **Task 11A** |
-| **DATE** | |
-| **NAME OF EXP** | |
+| **EXP** | Continuous Lab Evaluation-11 (`CAT11` / `TASK11A`) |
+| **TASK NO** | **Task 11A — TCP Server Setup & IP Retrieval** |
+| **DATE** | 22/10/2026 |
+| **NAME OF EXP** | HTTP Server - STM32–Wemos Wi-Fi Modem Using AT Commands |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -17,6 +17,9 @@
   - `PA2` (`USART2_TX`) — Connected to Wemos RX.
   - `PA3` (`USART2_RX`) — Connected to Wemos TX.
   - `GND` — Common ground.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
