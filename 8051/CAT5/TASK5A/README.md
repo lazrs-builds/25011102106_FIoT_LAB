@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-5 TASK-5A
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-5 (`CAT5` / `TASK5A`) |
+| **TASK NO** | **Task 5A — Hardware Timer-Based LED Blinking (`Timer 0` Polling)** |
+| **DATE** | 14/08/2026 |
+| **NAME OF EXP** | Hardware Timer and Interrupt-Based Timing for LED Fading, Pulse Generation, and Stepper Motor Control |
 
 ## HARDWARE SETUP / PLATFORM
 
