@@ -19,6 +19,9 @@
   - `P1.1` — Waveform output for pulse train and burst signal.
   - `GND` — Common ground reference.
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
