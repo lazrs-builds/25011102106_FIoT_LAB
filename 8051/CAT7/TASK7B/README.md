@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-7 TASK-7B
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-7 (`CAT7` / `TASK7B`) |
+| **TASK NO** | **Task 7B — Cursor Positioning & Dynamic Numeric Output** |
+| **DATE** | 28/08/2026 |
+| **NAME OF EXP** | 16×2 LCD Driver Development and Dynamic Display Control |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -20,6 +20,9 @@
   - `P3.4–P3.7` — LCD data lines (D4–D7).
   - `GND` — LCD ground and RW connection.
   - `VCC` — LCD power supply.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## Core Logic / Pseudocode / Code Base
 
