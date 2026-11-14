@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-4 TASK-4A
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-4 (`CAT4` / `TASK4A`) |
+| **TASK NO** | **Task 4A — Matrix Keypad, LEDs & Seven-Segment HMI** |
+| **DATE** | 07/08/2026 |
+| **NAME OF EXP** | Human-Machine Interface using Matrix Keypad, LEDs, and Seven-Segment Display |
 
 ## HARDWARE SETUP / PLATFORM
 
