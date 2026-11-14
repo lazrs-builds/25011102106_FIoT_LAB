@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-3 TASK-3A
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-3 (CAT3 / TASK3A) |
+| **DATE** | 31/07/2026 |
 | **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **TASK NO** | [Task 3A — Multi-Mode LED Pattern Generator & Switch Control |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -39,7 +39,6 @@
 
 ### Code Base
 
-Project file in `[experiment folder]/`:
 
 - `led_4_blink.c` — Implements GPIO control, button scanning, debouncing, software delay and all four LED operating modes through separate functions.
 
