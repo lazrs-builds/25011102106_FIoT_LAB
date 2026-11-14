@@ -17,6 +17,9 @@
 - **Pin Mapping:**
   - `P1.7` — LED output (active-low).
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
