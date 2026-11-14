@@ -18,6 +18,9 @@
   - `P1.1` — Square-wave output.
   - `GND` — Oscilloscope ground reference.
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
