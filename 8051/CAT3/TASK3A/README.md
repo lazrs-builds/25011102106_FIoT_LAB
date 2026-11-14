@@ -22,6 +22,9 @@
   - `P2.3` — Keypad output.
   - `P2.6` — Keypad input.
 
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 ## Core Logic / Pseudocode / Code Base
 
 ### Working Principle
