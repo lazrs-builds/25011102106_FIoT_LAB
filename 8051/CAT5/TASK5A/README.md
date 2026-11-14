@@ -16,6 +16,9 @@
 - **Peripherals:** Blue LED with 1 kΩ current-limiting resistor.
 - **Pin Mapping:**
   - `P1.1` — LED output.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
   
 ## Core Logic / Pseudocode / Code Base
 
