@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-9 (`CAT9` / `TASK9B`) |
+| **TASK NO** | **Task 9B — String-Based Application Logic** |
+| **DATE** | 01/10/2026 |
+| **NAME OF EXP** | STM32 UART Command Controlled LED |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -18,6 +18,9 @@
   - `PA3` — UART connection (FT232RL).
   - `PC13` — LED control output.
   - `GND` — Common ground.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## Core Logic / Pseudocode / Code Base
 
