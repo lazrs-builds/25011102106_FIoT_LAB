@@ -4,7 +4,7 @@
 |---|---|
 | **EXP** | Continuous Lab Evaluation-13 (`CAT13`) |
 | **TASK NO** | **Task 13 – BME280 Sensor Interfacing** |
-| **DATE** | |
+| **DATE** | 23/10/2026 |
 | **NAME OF EXP** | BME280 Sensor Interfacing Using I2C and Bosch Sensor API |
 
 ## HARDWARE SETUP / PLATFORM
@@ -20,6 +20,9 @@
   - `PA2` – `USART2_TX` (Connected to Wemos D1 Mini `RX`)[cite: 10].
   - `PA3` – `USART2_RX` (Connected to Wemos D1 Mini `TX`)[cite: 10].
   - `G` – Ground connected to Wemos D1 Mini `G`[cite: 10].
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
