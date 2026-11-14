@@ -1,11 +1,10 @@
-# [Experiment Title]
-
+# CAT-8 TASK-8A
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-8 (`CAT8` / `TASK8A`) |
+| **TASK NO** | **Task 8A — GPIO Input/Output** |
+| **DATE** | 24/09/2026  |
+| **NAME OF EXP** | STM32 GPIO Bring-Up and Switch-Controlled LED |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -16,6 +15,9 @@
 - **Pin Mapping:**
   - `PA9` — Push-button input (GPIO input with pull-up).
   - `PC13` — LED output (GPIO push-pull).
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## Core Logic / Pseudocode / Code Base
 
