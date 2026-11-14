@@ -3,9 +3,9 @@
 | **Field** | **Details** |
 |---|---|
 | **EXP** | Continuous Lab Evaluation-10 (`CAT10` / `TASK10C`) |
-| **DATE** | |
-| **NAME OF EXP** | |
-| **TASK NO** | |
+| **TASK NO** | **Task 10C — Connect Wemos to Wi-Fi** |
+| **DATE** | 09/10/2026 |
+| **NAME OF EXP** | STM32–Wemos Wi-Fi Modem Interface Using AT Commands |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -19,6 +19,10 @@
   - `PA9` (`USART1_TX`) — Connected to FT232RL RXD.
   - `PA10` (`USART1_RX`) — Connected to FT232RL TXD.
   - `GND` — Common ground.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
+
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
