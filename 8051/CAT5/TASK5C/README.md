@@ -1,11 +1,12 @@
-# [Experiment Title]
+# CAT-5 TASK-5C
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-5 (`CAT5` / `TASK5C`) |
+| **TASK NO** | **Task 5C — Interrupt-Driven Stepper Motor Speed Controller** |
+| **DATE** | 14/08/2026 |
+| **NAME OF EXP** | Hardware Timer and Interrupt-Based Timing for LED Fading, Pulse Generation, and Stepper Motor Control |
+
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -18,6 +19,9 @@
   - `P1.0–P1.3` — Stepper motor control outputs.
   - `P2.4–P2.7` — Keypad rows.
   - `P2.0–P2.3` — Keypad columns.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## Core Logic / Pseudocode / Code Base
 
