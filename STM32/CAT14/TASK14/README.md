@@ -4,7 +4,7 @@
 |---|---|
 | **EXP** | Continuous Lab Evaluation-14 (`CAT14`) |
 | **TASK NO** | **Task 14 – MQTT Publishing Using Custom ESP8266 API** |
-| **DATE** | |
+| **DATE** | 29/10/2026 |
 | **NAME OF EXP** | MQTT Communication Using Custom Built ESP8266 API |
 
 ## HARDWARE SETUP / PLATFORM
@@ -17,6 +17,9 @@
   - `PA10` / `D2` – `USART1_RX` (Connected to Wemos D1 Mini `TX`)[cite: 11, 12].
   - `PA9` / `D8` – `USART1_TX` (Connected to Wemos D1 Mini `RX`)[cite: 11, 12].
   - `GND` – Common Ground connected to Wemos D1 Mini `G`[cite: 11].
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
