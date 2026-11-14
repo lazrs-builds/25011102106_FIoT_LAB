@@ -2,10 +2,10 @@
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | Continuous Lab Evaluation-12 (`CAT12`) |
-| **TASK NO** | **Task 12B – On-board Switch Control with State Remembrance** |
-| **DATE** | |
-| **NAME OF EXP** | GPIO-Based LED Control Using Push Button |
+| **EXP** | Continuous Lab Evaluation-12 (`CAT12` / `TASK12B`) |
+| **TASK NO** | **Task 12B — User Push-Button Controlled LED** |
+| **DATE** | 15/10/2026 |
+| **NAME OF EXP** | STM32F401RE Cortex-M4: GPIO and User Input Programming |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -16,6 +16,9 @@
 - **Pin Mapping:**
   - `PA5` – On-board LED (LD2).
   - `PC13` – User Push Button (B1).
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
