@@ -1,11 +1,11 @@
-# [Experiment Title]
+# CAT-6 TASK-6B
 
 | **Field** | **Details** |
 |---|---|
-| **EXP** | [Fill in] |
-| **DATE** | [Fill in] |
-| **NAME OF EXP** | [Fill in] |
-| **TASK NO** | [Fill in] |
+| **EXP** | Continuous Lab Evaluation-6 (`CAT6` / `TASK6B`) |
+| **TASK NO** | **Task 6B — Full-Duplex UART Echo** |
+| **DATE** | 21/08/2026 |
+| **NAME OF EXP** | UART Driver and Serial Debugging |
 
 ## HARDWARE SETUP / PLATFORM
 
@@ -18,6 +18,9 @@
   - `P3.0 (RXD)` — UART receive.
   - `P3.1 (TXD)` — UART transmit.
   - `GND` — Common ground with USB-to-TTL adapter.
+
+### Hardware Schematic
+![Circuit Diagram](circuit.png)
 
 ## Core Logic / Pseudocode / Code Base
 
